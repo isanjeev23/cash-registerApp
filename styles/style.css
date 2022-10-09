@@ -1,0 +1,74 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+label, input, button {
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+
+}
+
+input{
+    padding: 1em;
+    min-width: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  
+}
+
+tr,th,td {
+    border: 1px solid black;
+    padding: 1em;
+    
+}
+
+div.errorDiv {
+  background-color: red;
+  text-align: center;
+  box-sizing: border-box;
+}
+div.display-message {
+  /* background-color: cyan; */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 0 ;
+    width: 100%;
+    
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+    text-decoration:none;
+  }
+  
+  img {
+    width: 50px;
+    padding: 0.2rem;
+  
+  }
